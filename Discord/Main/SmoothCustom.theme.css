@@ -1,0 +1,8 @@
+//META{"name":"SmoothCustom","description":"flexible and simple theme, with smoothed out corners and animations","author":"SleekZ","version":"1"}*//
+@import url(sleekz.github.io/Themes/main/src/Main.css);
+#app-mount {
+    --main-BG: #555;
+    --opacity-Val: .5;
+    --opacity-Tone: 30,30,30;
+    --Font-Name: Arial;
+}
