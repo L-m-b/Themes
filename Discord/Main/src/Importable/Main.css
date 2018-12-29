@@ -64,8 +64,8 @@ background: transparent;
 #app-mount .container-2Thooq {
     background: var(--combined-Opacity);
     border-radius: 0 0 7.5px 0;
-    margin-bottom: 100%;
-    animation: margin-slide 0.5s ease-in-out;
+    margin-bottom: 50px;
+    animation: slidemargin 1s ease; 
 }
 
 /* Chat */
@@ -112,8 +112,8 @@ background: transparent;
 #app-mount .members-1998pB {
     background: var(--combined-Opacity);
     border-radius: 0 0 0 7.5px;
-    margin-bottom: 100%;
-    animation: margin-slide 0.5s ease-in-out;
+    margin-bottom: 50px;
+    animation: slidemargin 1s ease;
 }
 
 /* Home */

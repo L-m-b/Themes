@@ -1,4 +1,4 @@
-@keyframes margin-slide {
-    0% {margin-bottom: 100%;}
-    100% {margin-bottom: 50px;}
+@keyframes slidemargin {
+    from {margin-bottom: 1000%;}
+    to {margin-bottom: 50px;}
 }
