@@ -65,7 +65,7 @@ background: transparent;
     background: var(--combined-Opacity);
     border-radius: 0 0 7.5px 0;
     margin-bottom: 50px;
-    animation: slidemargin 1s ease; 
+    animation: slidemargin 1s;
 }
 
 /* Chat */
@@ -113,7 +113,7 @@ background: transparent;
     background: var(--combined-Opacity);
     border-radius: 0 0 0 7.5px;
     margin-bottom: 50px;
-    animation: slidemargin 1s ease;
+    animation: slidemargin 1s;
 }
 
 /* Home */
