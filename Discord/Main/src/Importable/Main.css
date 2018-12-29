@@ -56,7 +56,6 @@ background: transparent;
 #app-mount .channels-Ie2l6A {
     background: transparent;
     margin-bottom: 50px;
-    animation: slidemargin 1s;
 }
 
 #app-mount .container-PNkimc, #app-mount .privateChannels-1nO12o {
@@ -113,7 +112,6 @@ background: transparent;
     background: var(--combined-Opacity);
     border-radius: 0 0 0 7.5px;
     margin-bottom: 50px;
-    animation: slidemargin 1s;
 }
 
 /* Home */
