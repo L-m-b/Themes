@@ -1,11 +1,11 @@
 /* Default Variables */
-@import url(/Importable/Vars.css);
+@import url(Importable/Vars.css);
 
 /* Main Styles */
-@import url(/Importable/Main.css);
+@import url(Importable/Main.css);
 
 /* Large-scale Modifications */
-@import url(/Importable/Global.css);
+@import url(Importable/Global.css);
 
 /* Animations for elements to use */
-@import url(/Importable/Animations.css)
+@import url(Importable/Animations.css);
