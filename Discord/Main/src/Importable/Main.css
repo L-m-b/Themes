@@ -55,6 +55,8 @@ background: transparent;
 /* Channel/chat list */
 #app-mount .channels-Ie2l6A {
     background: transparent;
+    margin-bottom: 50px;
+    animation: slidemargin 1s;
 }
 
 #app-mount .container-PNkimc, #app-mount .privateChannels-1nO12o {
@@ -64,8 +66,6 @@ background: transparent;
 #app-mount .container-2Thooq {
     background: var(--combined-Opacity);
     border-radius: 0 0 7.5px 0;
-    margin-bottom: 50px;
-    animation: slidemargin 1s;
 }
 
 /* Chat */
