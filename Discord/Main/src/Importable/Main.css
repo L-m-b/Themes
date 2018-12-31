@@ -44,6 +44,7 @@ background: transparent;
 }
 
 #app-mount .typeWindows-1za-n7::before {
+    content: "";
     background: rgba(var(--opacity-Tone),var(--opacity-Val));
     margin-top: 0;
 }
