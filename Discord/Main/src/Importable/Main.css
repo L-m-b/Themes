@@ -1,5 +1,5 @@
 /* Background */
-#app-mount:before {
+#app-mount::before {
     filter: blur(5px);
 	content: "";
 	top: 0;
@@ -37,10 +37,15 @@ background: transparent;
 
 /* titlebar */
 #app-mount .typeWindows-1za-n7 {
-    background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.5));
+    background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
     padding-top: 4px;
     margin-top: 0;
     height: 18px;
+}
+
+#app-mount .typeWindows-1za-n7::before {
+    background: rgba(var(--opacity-Tone),var(--opacity-Val));
+    margin-top: 0;
 }
 
 #app-mount .title-3qD0b- {
