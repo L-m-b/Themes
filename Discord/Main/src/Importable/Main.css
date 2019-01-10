@@ -153,11 +153,11 @@ background: transparent;
 
 /* settings */
 #app-mount .standardSidebarView-3F1I7i {
-    background: transparent;
+    background: var(--combined-Opacity);
 }
 
 #app-mount .sidebarRegion-VFTUkN {
-    background: transparent;
+    background: var(--combined-Opacity);
 }
 
 #app-mount .contentRegion-3nDuYy {
