@@ -1,16 +1,13 @@
 /* Background */
 #app-mount::before {
-    filter: blur(5px);
+    filter: blur(2px);
 	content: "";
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	position: absolute;
-    background: var(--main-BG);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: var(--main-BG) center/cover;
     transition: filter 0.5s ease-in-out;
 }
 
@@ -155,7 +152,17 @@ background: transparent;
 }
 
 /* settings */
-/* */
+#app-mount .standardSidebarView-3F1I7i {
+    background: transparent;
+}
+
+#app-mount .sidebarRegion-VFTUkN {
+    background: transparent;
+}
+
+#app-mount .contentRegion-3nDuYy {
+    background: transparent;
+}
 
 /* customcss */
 #app-mount #bd-customcss-detach-container {
