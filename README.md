@@ -1,1 +1,4 @@
-# go to [sleekz.github.io](https://sleekz.github.io/) for downloads and information
+# Themes
+## Information
+### This is the Main repository for my newer themes (currently making and updating themes)
+### The downloads are (soon to be) available at [sleekz.github.io](sleekz.github.io).
