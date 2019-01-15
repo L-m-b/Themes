@@ -24,8 +24,9 @@ background: transparent;
     background: transparent;
 }
 
-.stop-animations {
+.layer-3QrUeG, .stop-animations {
     opacity: var(--opacity-Val)!important;
+    transform: unset!important;
 }
 
 #app-mount .container-2lgZY8 {
@@ -110,6 +111,22 @@ background: transparent;
     background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
 }
 
+#app-mount .scroller-2FKFPG::-webkit-scrollbar-track {
+    background: var(--combined-Opacity);
+    border-radius: 7.5px 0 7.5px 0;
+}
+
+#app-mount .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background: var(--combined-Opacity);
+    border-radius: 7.5px 0 7.5px 0;
+}
+
+#app-mount .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background: var(--combined-Opacity);
+    border-radius: 7.5px 0 7.5px 0;
+}
+
+
 /* members list */
 #app-mount .members-1998pB {
     background: var(--combined-Opacity);
@@ -134,7 +151,7 @@ background: transparent;
     background: transparent;
 }
 
-#app-mount #friends {
+#app-mount .container-3gCOGc {
     background: transparent;
 }
 
@@ -164,7 +181,7 @@ background: transparent;
     background: transparent;
 }
 
-/* customcss */
+/* ace editor (BD) */
 #app-mount #bd-customcss-detach-container {
     background: var(--combined-Opacity);
 }
