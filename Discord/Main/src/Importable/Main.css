@@ -184,10 +184,16 @@ background: transparent;
 
     #app-mount .sidebarRegion-VFTUkN {
         background: var(--combined-Opacity);
+        flex: 0.07 0 218px;
     }
 
     #app-mount .contentRegion-3nDuYy {
         background: transparent;
+    }
+
+    #app-mount .contentColumnDefault-1VQkGM {
+        max-width: 65%;
+        margin-left: 100px;
     }
 
     /* mic test */
