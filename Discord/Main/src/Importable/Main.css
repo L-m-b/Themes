@@ -39,14 +39,12 @@ background: transparent;
     height: 18px;
 }
 
-#app-mount .typeWindows-1za-n7::before {
-    content: "";
-    background: rgba(var(--opacity-Tone),var(--opacity-Val));
-    margin-top: 0;
-}
-
 #app-mount .title-3qD0b- {
     background: var(--combined-Opacity);
+}
+
+#app-mount .searchBar-3dMhjb {
+    background: rgba(25, 80, 150, 0.15)!important;
 }
 
 /* Guild-List */
@@ -60,8 +58,13 @@ background: transparent;
     margin-bottom: 50px;
 }
 
-#app-mount .container-PNkimc, #app-mount .privateChannels-1nO12o {
+#app-mount .privateChannels-1nO12o {
     background: var(--combined-Opacity);
+}
+
+#app-mount .container-1UB9sr {
+    background: var(--combined-Opacity);
+    border-bottom: none;
 }
 
 #app-mount .container-2Thooq {
