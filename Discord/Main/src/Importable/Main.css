@@ -44,7 +44,7 @@ background: transparent;
 }
 
 #app-mount .searchBar-3dMhjb {
-    background: rgba(25, 80, 150, 0.15)!important;
+    background: var(--combined-opacity);
 }
 
 /* Guild-List */
@@ -76,16 +76,18 @@ background: transparent;
     background: rgba(var(--opacity-Tone),var(--opacity-Val));
 }
 
+
 /* Chat */
+    /* Main */
     #app-mount .chat-3bRxxu {
     background: transparent;
     }
 
-    #app-mount .chat-3bRxxu form {
+    #app-mount .content-yTz4x3 {
         background: transparent;
     }
 
-    #app-mount .content-yTz4x3 {
+    #app-mount .chat-3bRxxu form {
         background: transparent;
     }
 
@@ -131,13 +133,13 @@ background: transparent;
         border-radius: 7.5px 0 0 7.5px;
     }
 
+    /* members list */
+    #app-mount .members-1998pB {
+        background: var(--combined-Opacity);
+        border-radius: 0 0 0 7.5px;
+        margin-bottom: 50px;
+    }
 
-/* members list */
-#app-mount .members-1998pB {
-    background: var(--combined-Opacity);
-    border-radius: 0 0 0 7.5px;
-    margin-bottom: 50px;
-}
 
 /* Home */
     /* Activity Feed */
@@ -179,6 +181,7 @@ background: transparent;
         width: calc(100% - 4px);
     }
 
+
 /* settings */
     /* main */
     #app-mount .standardSidebarView-3F1I7i {
@@ -212,7 +215,7 @@ background: transparent;
         border-radius: 3px;
     }
 
-    /* ace editor (BD) */
+    /* ace editor (BD Custom CSS) */
     #app-mount #bd-customcss-detach-container {
         background: var(--combined-Opacity);
     }
@@ -229,8 +232,13 @@ background: transparent;
         background: var(--combined-Opacity);
     }
 
+
 /* annoying crap */
-    /* the same annoying tips that appear on login */
-    .channelNotices-41mJbj *{
+    /* shortcut and invite tips that appear on login */
+    .channelNotices-41mJbj {
 	    display: none;
+    }
+    /* that dumb looking gift button */
+    .buttons-205you button[tabindex="2"] {
+        display: none;
     }
