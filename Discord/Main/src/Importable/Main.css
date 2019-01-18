@@ -58,11 +58,26 @@
         display: none;
     }
 
+    #app-mount .searchResultsWrap-2DKFzt {
+        background: var(--combined-Opacity)
+    }
+
+
 /* Guild-List */
     /* Main */
     #app-mount .guildsWrapper-5TJh6A {
         background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
     }
+
+    /* Home icon */
+    #app-mount .guildInner-3DSoA4 a svg {
+        display: none;
+    }
+    
+    #app-mount .guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
+        background: url(./Assets/Home-icon.png) center/cover;
+    }
+
 
 /* Channel/chat list */
     /* Main */
@@ -260,7 +275,7 @@
     .channelNotices-41mJbj {
 	    display: none;
     }
-    
+
     /* Dumb looking gift button */
     .buttons-205you [tabindex="2"] {
         display: none;
