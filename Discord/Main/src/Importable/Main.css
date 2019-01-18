@@ -1,80 +1,93 @@
-/* Background */
-#app-mount::before {
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    background: var(--main-BG) center/cover;
-}
+/* Mount */
+    /* Background */
+    #app-mount::before {
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        background: var(--main-BG) center/cover;
+    }
 
-/* Mount-elements */
-#app-mount {
-background: transparent;
-}
+    /* Main */
+    #app-mount {
+        background: transparent;
+    }
 
-#app-mount .layers-3iHuyZ {
-    background: transparent;
-}
+    #app-mount .layers-3iHuyZ {
+        background: transparent;
+    }
 
-#app-mount .layer-3QrUeG {
-    background: transparent;
-}
+    #app-mount .layer-3QrUeG {
+        background: transparent;
+    }
 
-.layer-3QrUeG, .stop-animations {
-    opacity: 1!important;
-    transform: unset!important;
-}
+    .layer-3QrUeG, .stop-animations {
+        opacity: 1!important;
+        transform: unset!important;
+    }
 
-#app-mount .container-2lgZY8 {
-    background: var(--combined-Opacity);
-}
+    #app-mount .container-2lgZY8 {
+        background: var(--combined-Opacity);
+    }
 
-/* titlebar */
-#app-mount .typeWindows-1za-n7 {
-    background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
-    padding-top: 4px;
-    margin-top: 0;
-    height: 18px;
-}
+/* Titlebar */
+    /* Main */
+    #app-mount .typeWindows-1za-n7 {
+        background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
+        padding-top: 4px;
+        margin-top: 0;
+        height: 18px;
+    }
 
-#app-mount .title-3qD0b- {
-    background: var(--combined-Opacity);
-}
+    #app-mount .title-3qD0b- {
+        background: var(--combined-Opacity);
+    }
 
-#app-mount .searchBar-3dMhjb {
-    background: var(--combined-opacity);
-}
+    /* Search */
+    #app-mount .searchBar-3dMhjb {
+        background: var(--combined-Opacity);
+    }
+
+    #app-mount .container-3ayLPN {
+        background: var(--combined-Opacity);
+    }
+
+    .option-96V44q::after {
+        display: none;
+    }
 
 /* Guild-List */
-#app-mount .guildsWrapper-5TJh6A {
-    background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
-}
+    /* Main */
+    #app-mount .guildsWrapper-5TJh6A {
+        background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
+    }
 
 /* Channel/chat list */
-#app-mount .channels-Ie2l6A {
-    background: transparent;
-    margin-bottom: 50px;
-}
+    /* Main */
+    #app-mount .channels-Ie2l6A {
+        background: transparent;
+        margin-bottom: 50px;
+    }
 
-#app-mount .privateChannels-1nO12o, #app-mount .container-PNkimc {
-    background: var(--combined-Opacity);
-}
+    #app-mount .privateChannels-1nO12o, #app-mount .container-PNkimc {
+        background: var(--combined-Opacity);
+    }
 
-#app-mount .container-1UB9sr {
-    background: var(--combined-Opacity);
-    border-bottom: none;
-}
+    #app-mount .container-1UB9sr {
+        background: var(--combined-Opacity);
+        border-bottom: none;
+    }
 
-#app-mount .container-2Thooq {
-    background: var(--combined-Opacity);
-    border-radius: 0 0 7.5px 0;
-}
+    #app-mount .container-2Thooq {
+        background: var(--combined-Opacity);
+        border-radius: 0 0 7.5px 0;
+    }
 
-#app-mount .unreadBar-3YD_k9 {
-    background: rgba(var(--opacity-Tone),var(--opacity-Val));
-}
+    #app-mount .unreadBar-3YD_k9 {
+        background: rgba(var(--opacity-Tone),var(--opacity-Val));
+    }
 
 
 /* Chat */
@@ -118,6 +131,11 @@ background: transparent;
         background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
     }
 
+    /* Auto-complete */
+    #app-mount .autocomplete-1vrmpx {
+        background: var(--combined-Opacity);
+    }
+
     /* Scrollbars */
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-track {
         background: var(--combined-Opacity);
@@ -137,7 +155,7 @@ background: transparent;
         border-width: 2px 0 2px 2px;
     }
 
-    /* members list */
+    /* Members list */
     #app-mount .members-1998pB {
         background: var(--combined-Opacity);
         border-radius: 0 0 0 7.5px;
@@ -179,15 +197,15 @@ background: transparent;
         background: transparent;
     }
 
-    /* header for most of the above */
+    /* Header for most of the above */
     #app-mount .headerBar-UHpsPw {
         background: var(--combined-Opacity);
         width: calc(100% - 4px);
     }
 
 
-/* settings */
-    /* main */
+/* Settings */
+    /* Main */
     #app-mount .standardSidebarView-3F1I7i {
         background: var(--combined-Opacity);
     }
@@ -206,7 +224,7 @@ background: transparent;
         margin-left: 100px;
     }
 
-    /* mic test */
+    /* Mic test */
     #app-mount .notches-1sAcEM {
         background-image: none;
     }
@@ -219,7 +237,7 @@ background: transparent;
         border-radius: 3px;
     }
 
-    /* ace editor (BD Custom CSS) */
+    /* Ace editor (BD Custom CSS) */
     #app-mount #bd-customcss-detach-container {
         background: var(--combined-Opacity);
     }
@@ -238,11 +256,12 @@ background: transparent;
 
 
 /* annoying crap */
-    /* shortcut and invite tips that appear on login */
+    /* Shortcut and invite tips */
     .channelNotices-41mJbj {
 	    display: none;
     }
-    /* that dumb looking gift button */
-    .buttons-205you button[tabindex="2"] {
+    
+    /* Dumb looking gift button */
+    .buttons-205you [tabindex="2"] {
         display: none;
     }
