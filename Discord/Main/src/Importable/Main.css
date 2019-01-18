@@ -125,15 +125,16 @@ background: transparent;
     }
 
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-        background: var(--combined-Opacity);
+        background: transparent;
         border-radius: 7.5px 0 0 7.5px;
-        border: none;  
+        border: none; 
     }
 
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-thumb {
         background: var(--combined-Opacity);
         border-radius: 7.5px 0 0 7.5px;
-        box-shadow: -1px 0 #555;
+        border: solid 0 #555;
+        border-width: 2px 0 2px 2px;
     }
 
     /* members list */
