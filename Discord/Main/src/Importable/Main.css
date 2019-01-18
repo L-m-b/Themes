@@ -133,7 +133,7 @@ background: transparent;
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-thumb {
         background: var(--combined-Opacity);
         border-radius: 7.5px 0 0 7.5px;
-        border: solid 1px 0 1px 1px #555;
+        box-shadow: -1px 0 #555;
     }
 
     /* members list */
