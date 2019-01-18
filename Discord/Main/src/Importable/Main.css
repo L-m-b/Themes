@@ -118,6 +118,7 @@ background: transparent;
         background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
     }
 
+    /* Scrollbars */
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-track {
         background: var(--combined-Opacity);
         border-radius: 7.5px 0 0 7.5px;
@@ -126,11 +127,13 @@ background: transparent;
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-track-piece {
         background: var(--combined-Opacity);
         border-radius: 7.5px 0 0 7.5px;
+        border: none;  
     }
 
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-thumb {
         background: var(--combined-Opacity);
         border-radius: 7.5px 0 0 7.5px;
+        border: solid 2px 0 2px 2px #555;
     }
 
     /* members list */
