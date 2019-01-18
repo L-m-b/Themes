@@ -58,8 +58,16 @@
         display: none;
     }
 
+    #app-mount .searchHeader-1l-wpR {
+        background: transparent;
+    }
+
     #app-mount .searchResultsWrap-2DKFzt {
         background: var(--combined-Opacity)
+    }
+
+    #app-mount .searchResultMessage-2VxO12.hit-NLlWXA {
+        background: var(--combined-Opacity);
     }
 
 
@@ -75,7 +83,7 @@
     }
     
     #app-mount .guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
-        background: url(/Themes/Discord/Assets/Home-icon.png) center/cover;
+        background: url(/Themes/Discord/Main/src/Assets/Home-icon.png) center/cover;
     }
 
 
@@ -115,10 +123,6 @@
         background: transparent;
     }
 
-    #app-mount .chat-3bRxxu form {
-        background: transparent;
-    }
-
     #app-mount .messagesWrapper-3lZDfY {
         background: transparent;
     }
@@ -128,12 +132,17 @@
         background: var(--combined-Opacity);
     }
 
-    #app-mount .typing-2GQL18 {
-        background: transparent;
-    }
-
     #app-mount .base-gE7OpD {
         height: 20px;
+    }
+
+    #app-mount .newMessagesBar-mujexs {
+        background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
+    }
+
+    /* text field */
+    #app-mount .chat-3bRxxu form {
+        background: transparent;
     }
 
     #app-mount .channelTextArea-rNsIhG {
@@ -142,8 +151,8 @@
         border-top: none;
     }
 
-    #app-mount .newMessagesBar-mujexs {
-        background: rgba(var(--opacity-Tone),calc(var(--opacity-Val) * 1.25));
+    #app-mount .typing-2GQL18 {
+        background: transparent;
     }
 
     /* Auto-complete */
@@ -170,12 +179,13 @@
         border-width: 2px 0 2px 2px;
     }
 
-    /* Members list */
-    #app-mount .members-1998pB {
-        background: var(--combined-Opacity);
-        border-radius: 0 0 0 7.5px;
-        margin-bottom: 50px;
-    }
+
+/* Members list */
+#app-mount .members-1998pB {
+    background: var(--combined-Opacity);
+    border-radius: 0 0 0 7.5px;
+    margin-bottom: 50px;
+}
 
 
 /* Home */
