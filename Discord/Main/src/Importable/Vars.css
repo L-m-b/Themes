@@ -1,10 +1,7 @@
 #app-mount {
     /* Misc Vars */
-    --combined-Opacity: rgba(var(--opacity-Tone),var(--opacity-Val));
-  
-    /* Main Vars */
-    --main-BG: #555;
-    --opacity-Val: .5;
-    --opacity-Tone: 30,30,30;
-    --Font-Name: Arial;
+    --default-opacity-Tone: 30,30,30;
+    --default-opacity-Val: .5;
+    --default-main-BG: #555;
+    --default-font-Name: 'whitney';
 }
