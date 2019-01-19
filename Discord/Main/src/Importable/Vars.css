@@ -1,7 +1,7 @@
 #app-mount {
     /* Misc Vars */
     --default-opacity-Tone: 30,30,30;
-    --default-opacity-Val: .5;
+    --default-opacity-Val: .75;
     --default-main-BG: #555;
     --default-font-Name: 'whitney';
 }
