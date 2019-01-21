@@ -1,5 +1,11 @@
 #app-mount {
-    /* Misc Vars */
+    /* Miscellaneous Vars */
+    --v-opacity-Normal: rgba(var(--opacity-Tone,var(--default-opacity-Tone)),var(--opacity-Val,var(--default-opacity-Val)));
+    --v-opacity-Light: rgba(var(--opacity-Tone,var(--default-opacity-Tone)),calc(var(--opacity-Val,var(--default-opacity-Val)) * .75));
+    --v-main-BG: var(--main-BG,var(--default-main-BG));
+    --v-font-Name: var(--font-Name, var(--default-font-Name));
+
+    /* Default Vars */
     --default-opacity-Tone: 30,30,30;
     --default-opacity-Val: .75;
     --default-main-BG: #555;

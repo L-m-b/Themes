@@ -1,15 +1,4 @@
 /* Mount */
-    /* Background */
-    #app-mount::before {
-        content: "";
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        position: absolute;
-        background: var(--v-main-BG) center/cover;
-    }
-
     /* Main */
     #app-mount {
         background: transparent;
@@ -23,11 +12,6 @@
         background: transparent;
     }
 
-    .layer-3QrUeG, .stop-animations {
-        opacity: 1!important;
-        transform: unset!important;
-    }
-
     #app-mount .container-2lgZY8 {
         background: var(--v-opacity-Normal);
     }
@@ -37,9 +21,6 @@
     /* Main */
     #app-mount .typeWindows-1za-n7 {
         background: var(--v-opacity-Normal);
-        padding-top: 4px;
-        margin-top: 0;
-        height: 18px;
     }
 
     #app-mount .title-3qD0b- {
@@ -57,6 +38,10 @@
 
     .option-96V44q::after {
         display: none;
+    }
+
+    .option-96V44q.selected-rZcOL- {
+        background: var(--v-accent-Tone);
     }
 
     #app-mount .searchHeader-1l-wpR {
@@ -78,21 +63,11 @@
         background: var(--v-opacity-Normal);
     }
 
-    /* Home icon */
-    #app-mount .guildInner-3DSoA4 a svg {
-        display: none;
-    }
-    
-    #app-mount .guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
-        background: url(../Assets/Home-icon.png) center/cover;
-    }
-
 
 /* Channel/chat list */
     /* Main */
     #app-mount .channels-Ie2l6A {
         background: transparent;
-        margin-bottom: 50px;
     }
 
     #app-mount .privateChannels-1nO12o, #app-mount .container-PNkimc {
@@ -101,12 +76,10 @@
 
     #app-mount .container-1UB9sr {
         background: var(--v-opacity-Light);
-        border-bottom: none;
     }
 
     #app-mount .container-2Thooq {
         background: var(--v-opacity-Light);
-        border-radius: 0 0 7.5px 0;
     }
 
     #app-mount .unreadBar-3YD_k9 {
@@ -129,12 +102,7 @@
     }
 
     #app-mount .inner-zqa7da {
-        border-radius: 7.5px;
         background: var(--v-opacity-Light);
-    }
-
-    #app-mount .base-gE7OpD {
-        height: 20px;
     }
 
     #app-mount .newMessagesBar-mujexs {
@@ -144,12 +112,6 @@
     /* text field */
     #app-mount .chat-3bRxxu form {
         background: transparent;
-    }
-
-    #app-mount .channelTextArea-rNsIhG {
-        padding-top: 2px;
-        margin-bottom: 20px;
-        border-top: none;
     }
 
     #app-mount .typing-2GQL18 {
@@ -164,29 +126,16 @@
     /* Scrollbars */
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-track {
         background: var(--v-opacity-Light);
-        border-radius: 7.5px 0 0 7.5px;
     }
 
     #app-mount .scroller-2FKFPG::-webkit-scrollbar-track-piece {
         background: transparent;
-        border-radius: 7.5px 0 0 7.5px;
-        border: none; 
-    }
-
-    #app-mount .scroller-2FKFPG::-webkit-scrollbar-thumb {
-        background: #333;
-        border-radius: 7.5px 0 0 7.5px;
-        border: solid 0 #666;
-        border-width: 2px;
-        opacity: .75;
     }
 
 
 /* Members list */
 #app-mount .members-1998pB {
     background: var(--v-opacity-Light);
-    border-radius: 0 0 0 7.5px;
-    margin-bottom: 50px;
 }
 
 
@@ -239,16 +188,10 @@
 
     #app-mount .sidebarRegion-VFTUkN {
         background: var(--v-opacity-Light);
-        flex: 0.07 0 218px;
     }
 
     #app-mount .contentRegion-3nDuYy {
         background: transparent;
-    }
-
-    #app-mount .contentColumnDefault-1VQkGM {
-        max-width: 65%;
-        margin-left: 100px;
     }
 
     /* Mic test */
@@ -258,10 +201,6 @@
 
     #app-mount .progress-1IcQ3A {
         background-color: rgb(100,100,100);
-    }
-
-    #app-mount .container-3PXSwK {
-        border-radius: 3px;
     }
 
     /* Ace editor (BD Custom CSS) */
@@ -279,16 +218,4 @@
 
     #app-mount .ace_gutter {
         background: var(--v-opacity-Light);
-    }
-
-
-/* annoying crap */
-    /* Shortcut and invite tips */
-    .channelNotices-41mJbj {
-	    display: none;
-    }
-
-    /* Dumb looking gift button */
-    .buttons-205you [tabindex="2"] {
-        display: none;
     }

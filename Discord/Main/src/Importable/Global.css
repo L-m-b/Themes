@@ -1,6 +1,6 @@
 /* Text */
 #app-mount {
-    font-family: var(--font-Name,--default-font-Name);
+    font-family: var(--v-font-Name);
 }
 
 /* text replacement */
