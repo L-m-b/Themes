@@ -4,5 +4,8 @@
 /* Main Styles */
 @import url(Importable/Main.css);
 
-/* Large-scale Modifications */
-@import url(Importable/Global.css);
+/* Text changes */
+@import url(Importable/text.css);
+
+/* Removals */
+@import url(Importable/Removals.css);

@@ -1,7 +1,7 @@
 /* Mount */
     /* Background */
     #app-mount::before {
-        content: "";
+        content: " ";
         top: 0;
         left: 0;
         right: 0;
@@ -32,6 +32,51 @@
         background: var(--v-opacity-Normal);
     }
 
+    /* Scrollbars */
+    .ace_scroller::webkit-scrollbar {
+        background: transparent;
+        width: 1em;
+        height: 1em;
+    }
+
+    .ace_scroller::-webkit-scrollbar-track {
+        background: var(--v-opacity-Light);
+        border-radius: 7.5px 0 0 7.5px;
+    }
+
+    .ace_scroller::-webkit-scrollbar-track-piece {
+        background: transparent;
+        border-radius: 7.5px 0 0 7.5px;
+        border: none;
+    }
+
+    .ace_scroller::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 7.5px 0 0 7.5px;
+        border: solid 0 #666;
+        border-width: 2px;
+        opacity: .75;
+    }
+
+    #app-mount ::-webkit-scrollbar-track {
+        background: var(--v-opacity-Light);
+        border-radius: 7.5px 0 0 7.5px;
+    }
+
+    #app-mount ::-webkit-scrollbar-track-piece {
+        background: transparent;
+        border-radius: 7.5px 0 0 7.5px;
+        border: none;
+    }
+
+    #app-mount ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 7.5px 0 0 7.5px;
+        border: solid 0 #666;
+        border-width: 2px;
+        opacity: .75;
+    }
+
 
 /* Titlebar */
     /* Main */
@@ -46,9 +91,20 @@
         background: var(--v-opacity-Light);
     }
 
+    .children-19S4PO:after {
+        display: none;
+    }
+
     /* Search */
     #app-mount .searchBar-3dMhjb {
         background: var(--v-opacity-Light);
+        width: 24px;
+        transition: width .25s ease-in-out;
+        padding: 0;
+    }
+
+    #app-mount .focused-31_ccS .searchBar-3dMhjb {
+        width: 240px;
     }
 
     #app-mount .container-3ayLPN {
@@ -71,20 +127,39 @@
         background: var(--v-opacity-Light);
     }
 
+    #app-mount .searchBar-3dMhjb .icon-3cZ1F_, #app-mount .searchBar-3dMhjb .iconContainer-O4O2CN {
+        width: 24px;
+        height: 24px;
+        color: #b9bbbe;
+    }
+
+    #app-mount .container-3ayLPN {
+        margin-right: 130px;
+        margin-top: 5px;
+    }
 
 /* Guild-List */
     /* Main */
-    #app-mount .guildsWrapper-5TJh6A {
-        background: var(--v-opacity-Normal);
+    #app-mount .wrapper-1Rf91z {
+        background: var(--v-opacity-Light);
     }
 
     /* Home icon */
-    #app-mount .guildInner-3DSoA4 a svg {
+    #app-mount .listItem-2P_4kh:first-child foreignObject path{
         display: none;
     }
-    
-    #app-mount .guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
-        background: url(../Assets/Home-icon.png) center/cover;
+
+    #app-mount .listItem-2P_4kh:first-child a svg {
+        background-image: url(../Assets/Home-Icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 48px;
+        height: 48px;
+    }
+
+    /* Server discovery */
+    #app-mount .pageWrapper-1PgVDX {
+        background: transparent
     }
 
 
@@ -93,6 +168,10 @@
     #app-mount .channels-Ie2l6A {
         background: transparent;
         margin-bottom: 50px;
+    }
+
+    #app-mount .noChannel-Z1DQK7 {
+        background: transparent;
     }
 
     #app-mount .privateChannels-1nO12o, #app-mount .container-PNkimc {
@@ -141,6 +220,17 @@
         background: var(--v-opacity-Light);
     }
 
+    /* Blocked Messages */
+    #app-mount .messageGroupBlocked-3wrQQX {
+        background: var(--v-opacity-Light);
+        border-radius: 7.5px;
+        border: unset;
+    }
+
+    #app-mount .messageGroupBlockedBtn-1PBBh- {
+        background: transparent;
+    }
+
     /* text field */
     #app-mount .chat-3bRxxu form {
         background: transparent;
@@ -161,43 +251,32 @@
         background: var(--v-opacity-Normal);
     }
 
-    /* Scrollbars */
-    #app-mount .scroller-2FKFPG::-webkit-scrollbar-track {
-        background: var(--v-opacity-Light);
-        border-radius: 7.5px 0 0 7.5px;
-    }
-
-    #app-mount .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-        background: transparent;
-        border-radius: 7.5px 0 0 7.5px;
-        border: none; 
-    }
-
-    #app-mount .scroller-2FKFPG::-webkit-scrollbar-thumb {
-        background: #333;
-        border-radius: 7.5px 0 0 7.5px;
-        border: solid 0 #666;
-        border-width: 2px;
-        opacity: .75;
-    }
-
 
 /* Members list */
-#app-mount .members-1998pB {
-    background: var(--v-opacity-Light);
-    border-radius: 0 0 0 7.5px;
-    margin-bottom: 50px;
-}
+    #app-mount .members-1998pB {
+        background: var(--v-opacity-Light);
+        border-radius: 0 0 0 7.5px;
+        margin-bottom: 50px;
+    }
 
 
 /* Home */
     /* Activity Feed */
-    #app-mount .activityFeed-28jde9 {
+    #app-mount .activityFeed-1C0EmJ {
         background: transparent;
     }
 
-    #app-mount .header-39GIC8 {
+    #app-mount .layout-1cQCv2 {
+        background-image: none;
+    }
+
+    #app-mount .outer-2IVh5n {
         background: var(--v-opacity-Light);
+        border-radius: 7.5px;
+    }
+
+    #app-mount .recentlyPlayedContainer-2F3MqS {
+        background: transparent;
     }
 
     /* Game Library */
@@ -207,6 +286,7 @@
 
     #app-mount .stickyHeader-1pqx0j {
         width: 100%;
+        background: var(--v-opacity-Light);
     }
 
     /* Gift Invent */
@@ -225,7 +305,7 @@
     }
 
     /* Header for most of the above */
-    #app-mount .headerBar-UHpsPw {
+    #app-mount .container-1r6BKw {
         background: var(--v-opacity-Light);
         width: calc(100% - 4px);
     }
@@ -281,14 +361,8 @@
         background: var(--v-opacity-Light);
     }
 
-
-/* annoying crap */
-    /* Shortcut and invite tips */
-    .channelNotices-41mJbj {
-	    display: none;
-    }
-
-    /* Dumb looking gift button */
-    .buttons-205you [tabindex="2"] {
-        display: none;
+/* Buttons */
+    /* selections */
+    #app-mount .selected-1HYmZZ a, #app-mount .selected-37j_iU .content-3at_AU {
+        background: var(--v-button-Select);
     }
