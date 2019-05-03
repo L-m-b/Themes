@@ -9,8 +9,8 @@
     /* d Vars */
     --d-opacity-Tone: 30,30,30;
     --d-opacity-Val: .75;
-    --d-button-Select: 38,38,38;
-    --d-button-Opacity: 1;
+    --d-button-Select: 64,64,64;
+    --d-button-Opacity: .75;
     --d-main-BG: #555;
     --d-font-Name: 'whitney';
 }

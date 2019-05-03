@@ -91,28 +91,42 @@
         background: var(--v-opacity-Light);
     }
 
-    .children-19S4PO:after {
+    .children-19S4PO:after, .option-96V44q::after {
         display: none;
     }
 
     /* Search */
     #app-mount .searchBar-3dMhjb {
-        background: var(--v-opacity-Light);
+        background: transparent;
         width: 24px;
-        transition: width .25s ease-in-out;
         padding: 0;
+        transition-property: background, width;
+        transition-duration: .5s;
+        transition-timing-function: ease;
     }
 
-    #app-mount .focused-31_ccS .searchBar-3dMhjb {
+    #app-mount .focused-31_ccS .searchBar-3dMhjb, #app-mount .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {
         width: 240px;
+        background: var(--v-opacity-Normal);
+    }
+
+    #app-mount .searchBar-3dMhjb .icon-3cZ1F_ {
+        width: 24px;
+        height: 24px;
+        color: #b9bbbe;
+    }
+
+    #app-mount .searchBar-3dMhjb .iconContainer-O4O2CN {
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        color: #b9bbbe;
     }
 
     #app-mount .container-3ayLPN {
         background: var(--v-opacity-Light);
-    }
-
-    .option-96V44q::after {
-        display: none;
+        margin-right: 130px;
+        margin-top: 5px;
     }
 
     #app-mount .searchHeader-1l-wpR {
@@ -127,16 +141,6 @@
         background: var(--v-opacity-Light);
     }
 
-    #app-mount .searchBar-3dMhjb .icon-3cZ1F_, #app-mount .searchBar-3dMhjb .iconContainer-O4O2CN {
-        width: 24px;
-        height: 24px;
-        color: #b9bbbe;
-    }
-
-    #app-mount .container-3ayLPN {
-        margin-right: 130px;
-        margin-top: 5px;
-    }
 
 /* Guild-List */
     /* Main */
