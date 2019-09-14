@@ -1,8 +1,0 @@
-//META{"name":"LMB-Discord","description":"My own custom theme for whoever the fuck's use.","author":"LukeMBilston","version":"1"}*//
-@import url(https://sleekz.github.io/Themes/Discord/Main/src/Import.css);
-#app-mount {
-    --main-BG: #555;
-    --opacity-Val: .75;
-    --opacity-Tone: 30,30,30;
-    --Font-Name: Arial;
-}
