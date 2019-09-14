@@ -1,0 +1,16 @@
+#app-mount {
+/* vars */
+  --v-main-BG: var(--main-BG,var(--d-main-BG));
+  --v-opacity-Val: var(--opacity-Val,var(--d-opacity-Val));
+  --v-opacity-Tone: var(--opacity-Tone,var(--d-opacity-Tone));
+  --v-highlight-Tone: var(--highlight-Tone,var(--d-highlight-Tone));
+  --v-font-Name: var(--font-Name,var(--d-font-Name));
+
+/* default vars */
+  --d-main-BG: #555;
+  --d-opacity-Val: .75;
+  --d-opacity-Tone: 30,30,30;
+  --d-highlight-Tone: #3399aa;
+  --d-font-Name: Arial;
+
+}

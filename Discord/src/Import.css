@@ -1,0 +1,11 @@
+/* Default Variables */
+@import url(Import/Vars.css);
+
+/* Main Styles */
+@import url(Import/Main.css);
+
+/* Text changes */
+@import url(Import/Text.css);
+
+/* Removals */
+@import url(Import/Trash.css);
